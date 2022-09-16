@@ -101,5 +101,16 @@ public class PokerTest {
 		assertEquals(false, result);
 	}
 	
+	// Test case 11: n = 5, cards = {"C7", "C8", "C3", "D3", "H3"}
+	@Test
+	public void test78333() {
+		boolean result;
+		String[] input = new String[] {"C7", "C8", "C3", "D3", "H3"};
+		result = poker.isFullHouse(input, 5);
+		assertEquals(false, result);
+	}
+	
+	// Test case 12: n = 5, cards
+	
 	
 }
